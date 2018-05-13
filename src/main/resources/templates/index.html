@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="UTF-8"/>
+    <title th:text="${title}">Greeting Card</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1 th:text="${title}">Mom's Card</h1>
+
+<nav th:fragment="navigation">
+    <a href="https://duckduckgo.com">Search Engine</a>
+</nav>
+
+<div class="container-fluid">
+    <h1>Happy Mother's Day</h1>
+    <p>This card is a work in progress.</p>
+</div>
+
+</body>
+</html>
